@@ -713,7 +713,7 @@ p.moreinfo {
     color: #fff;
     margin-right: 2%;
     background-size: cover;
-    min-height: 235px;
+    min-height: 230px;
     transition: all ease 0.5s;
     cursor: pointer; }
     @media screen and (max-width: 900px) {
