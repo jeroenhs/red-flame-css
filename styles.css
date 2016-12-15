@@ -709,11 +709,11 @@ p.moreinfo {
   .threeboxes .box {
     float: left;
     width: 32%;
-    padding: 70px 40px 40px 40px;
+    padding: 50px 40px 40px 40px;
     color: #fff;
     margin-right: 2%;
     background-size: cover;
-    min-height: 250px;
+    min-height: 235px;
     transition: all ease 0.5s;
     cursor: pointer; }
     @media screen and (max-width: 900px) {
