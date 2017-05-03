@@ -2589,7 +2589,6 @@ box-shadow: 0 0 7px rgba(0,0,0,0.5);
 }
 .pager .amount {
   float: left;
-  font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
   white-space: nowrap;
   margin: 0 15px 0 0;
 }
@@ -8504,7 +8503,7 @@ body.customer-account .my-account .order-details h2 {
   display: inline-block;
 }
 body.customer-account .my-account .addresses-list h3 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 body.customer-account .my-account .fieldset {
@@ -8546,6 +8545,9 @@ body.customer-account .sidebar ol#cart-sidebar-reorder li {
   margin-bottom: 0;
 }
 body.customer-account .sidebar ol#cart-sidebar-reorder p.product-name {
+  font-size: 13px;
+}
+body.customer-account .sidebar ol#cart-sidebar-reorder p.product-name {
   display: inline-block;
   margin-bottom: 0;
 }
@@ -8562,6 +8564,18 @@ body.customer-account .sidebar .block-reorder ol#cart-sidebar-reorder li input {
 body.customer-account .sidebar .block-reorder ol#cart-sidebar-reorder p.product-name {
   display: inline;
   margin-bottom: 0;
+}
+body.customer-account .sidebar .block-reorder .btn-cart {
+  background: #EF4136;
+  color: #fff;
+  padding: 7px 15px;
+  font-size: 13px;
+}
+body.customer-account .sidebar .block-reorder .btn-cart:hover {
+  background: #000;
+}
+body.customer-account .main-container {
+  margin: 30px auto;
 }
 
 .form-list .customer-dob .dob-month,
@@ -8584,8 +8598,8 @@ body.customer-account .sidebar .block-reorder ol#cart-sidebar-reorder p.product-
   padding-bottom: 7px;
 }
 .dashboard .box-head h2 {
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
   display: inline-block;
   margin-bottom: 0;
 }
@@ -8594,8 +8608,7 @@ body.customer-account .sidebar .block-reorder ol#cart-sidebar-reorder p.product-
 }
 .dashboard .box-title a,
 .dashboard .box-head a {
-  text-transform: uppercase;
-  font-size: 12px;
+  font-size: 13px;
 }
 .dashboard .box-account {
   padding-bottom: 40px;
@@ -8604,8 +8617,6 @@ body.customer-account .sidebar .block-reorder ol#cart-sidebar-reorder p.product-
 }
 .dashboard .box-account p,
 .dashboard .box-account address {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-style: italic;
 }
 .dashboard .col2-set .col-1,
 .dashboard .col2-set .col-2 {
@@ -8669,7 +8680,7 @@ body.customer-account .sidebar .block-reorder ol#cart-sidebar-reorder p.product-
  * Address Book
  * ============================================ */
 .my-account .addresses-list {
-  font-family: Georgia, Times, "Times New Roman", serif;
+
 }
 .my-account .addresses-list .col-1,
 .my-account .addresses-list .col-2 {
@@ -8902,14 +8913,13 @@ ol#cart-sidebar-reorder p.product-name {
     margin-top: 0;
   }
   .dashboard .welcome-msg {
-    font-family: Georgia, Times, "Times New Roman", serif;
+
   }
   .dashboard .welcome-msg .hello {
-    font-style: italic;
+
   }
   .dashboard .box-account {
     padding-bottom: 15px;
-    margin-bottom: 30px;
   }
   .dashboard .col2-set .col-1,
   .dashboard .col2-set .col-2 {
@@ -8925,6 +8935,12 @@ ol#cart-sidebar-reorder p.product-name {
     float: right;
   }
 }
+.data-table.orders th {
+  border-right: none
+}
+.data-table.orders th.date {
+  min-width: 120px;
+}
 @media only screen and (max-width: 599px) {
   body.customer-account .my-account .form-list .control {
     padding-left: 0;
@@ -8932,7 +8948,6 @@ ol#cart-sidebar-reorder p.product-name {
 }
 @media only screen and (max-width: 479px) {
   body.customer-account .my-account .page-title h1 {
-    text-align: center;
   }
   body.customer-account .my-account .title-buttons {
     text-align: center;
