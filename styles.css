@@ -782,6 +782,8 @@ p.moreinfo {
     background-image: url("../images/homeboxes/lederen-houtmanden.jpg"); }
   .threeboxes .doehetzelf {
     background-image: url("../images/homeboxes/doe-het-zelf.jpg"); }
+  .threeboxes .blaasbalgen {
+    background-image: url("../images/homeboxes/blaasbalgen.jpg"); }
   .threeboxes .lastbox {
     margin-right: 0; }
 
@@ -1208,7 +1210,6 @@ body:not(.customer-account) .block:first-child .block-title {
 }
 .block-account li,
 .block-cms-menu li {
-  text-transform: uppercase;
   font-family: "Helvetica", Arial, sans-serif;
   margin: 7px 0;
 }
@@ -10377,14 +10378,6 @@ div.paypal-logo span > img {
 .cms-no-route .std h2 {
   color: #EF4136;
 }
-.cms-page-view .std li,
-.cms-no-route .std li {
-  color: #636363;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 24px;
-}
 .cms-page-view .col-left:after,
 .cms-no-route .col-left:after {
   content: '';
@@ -11317,3 +11310,40 @@ div.calendar table td.button {
 #discount-coupon-form label { text-transform: inherit; margin-right: 0; font-family: "Roboto", Arial, sans-serif; font-weight: 300; font-size: 14px;}
 #togglecoupon { text-align: right; float: right; color: #888; margin-bottom: 15px; border: 1px solid #eee; padding: 10px 15px; font-size: 13px; font-weight: 400;}
 #togglecoupon:hover { text-decoration: underline; cursor: pointer;}
+
+.allfaqs li {
+  list-style: none;
+}
+.allfaqs li.q {
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0px;
+  min-height: 10px;
+}
+.allfaqs li.a {
+  background: #fff;
+  display: none;
+  color: #444;
+  padding: 20px 0px 0px;
+}
+.allfaqs h3 {
+  margin: 0;
+  font-weight: 400;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.allfaqs li ul li {
+  margin-left: 15px;
+  list-style: disc;
+}
+
+.hstable thead {
+  font-weight: 700;
+}
+
+.hstable tr td {
+  padding: 5px 20px;
+  border: 1px solid #eee;
+}
