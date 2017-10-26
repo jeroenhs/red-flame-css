@@ -11362,3 +11362,16 @@ div.calendar table td.button {
   padding: 5px 20px;
   border: 1px solid #eee;
 }
+
+.verlofblock .no-display {
+  display: block !important;
+}
+@media only screen and (max-width: 770px) {
+  .verlofblock  .block-content {
+    padding: 0 !important;
+    border-width: 0 !important;
+  }
+  .verlofblock {
+    margin-bottom: 1rem !important;
+  }
+}
